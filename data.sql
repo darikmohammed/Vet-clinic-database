@@ -33,6 +33,14 @@ INSERT INTO SPECIES (NAME) VALUES ('Digimon');
 ** Modify Animals 
 */
 
+-- species_id
 UPDATE ANIMALS SET SPECIES_ID = (SELECT ID FROM SPECIES WHERE NAME = 'Digimon') WHERE NAME LIKE '%mon';
 UPDATE ANIMALS SET SPECIES_ID = (SELECT ID FROM SPECIES WHERE NAME = 'Pokemon') WHERE NAME NOT LIKE '%mon';
 
+-- owner_id
+
+UPDATE ANIMALS SET OWNER_ID = (SELECT ID FROM OWNERS WHERE full_name  = 'Sam Smith') WHERE NAME IN('Agumon'); 
+UPDATE ANIMALS SET OWNER_ID = (SELECT ID FROM OWNERS WHERE full_name  = 'Jennifer Orwell') WHERE NAME IN('Gabumon' , 'Pikachu'); 
+UPDATE ANIMALS SET OWNER_ID = (SELECT ID FROM OWNERS WHERE full_name  = 'Bob') WHERE NAME IN('Devimon', 'Plantmon'); 
+UPDATE ANIMALS SET OWNER_ID = (SELECT ID FROM OWNERS WHERE full_name  = 'Melody Pond ') WHERE NAME IN('Charmander', 'Squirtle', 'Blossom'); 
+UPDATE ANIMALS SET OWNER_ID = (SELECT ID FROM OWNERS WHERE full_name  = 'Dean Winchester') WHERE NAME IN('Angemon' , 'Boarmon'); 
