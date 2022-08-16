@@ -8,7 +8,7 @@
 - clinic employees
 - visits
 
-![](./Vet_Clinic.png)
+![](Vet_Clinic.png)
 
 ## Getting Started
 
