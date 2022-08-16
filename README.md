@@ -24,6 +24,14 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@twitterhandle](https://twitter.com/r_darik)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/darik-mohammed/)
 
+## Contributor
+
+👤 **Ben Kiboma**
+
+- GitHub: [@kiboma2021](https://github.com/kiboma2021)
+- Twitter: [@BenOmayio](https://twitter.com/omayiobenj)
+- LinkedIn: [@BenOmayio](https://www.linkedin.com/in/ben-kiboma/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
